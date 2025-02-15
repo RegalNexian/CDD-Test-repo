@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#red{
+    color:white;
+    background-color: rgb(197, 120, 120);
+    /* padding: 10px 20px; */
+}
+
+#green{
+    color: white;
+    background-color: rgb(142, 203, 142);
+    /* padding: 10px 20px; */
+}
+
+#blue{
+    color:white;
+    background-color: rgb(147, 147, 202);
+    /* padding: 10px 20px; */
+}
+
+.header button{
+margin: 50px;    
+}
+
+.btn{
+    padding: 12px 24px;
+    border-radius: 1px solid white;
+    margin-left: 20px;
+    text-decoration: none;
+    outline:none;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 350px;
+}
+
