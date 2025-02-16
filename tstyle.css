@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.button {
+  padding: 14px 28px;
+  font-weight: 550;
+  margin: 0 10px 0 0;
+  color: aliceblue;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+#red {
+  background-color: rgb(225, 43, 43);
+}
+#blue {
+  background-color: rgb(50, 135, 253);
+}
+#green {
+  background-color: rgb(50, 253, 114);
+}
+.button:hover {
+  transform: scale(1.1);
+}
